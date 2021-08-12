@@ -13,8 +13,11 @@ from random_user_agent.user_agent import UserAgent
 from random_user_agent.params import SoftwareName, OperatingSystem
 import requests
 import json
-import importlib.resources as pkg_resources
 from nordvpn_switcher import NordVPN_options
+try:
+    import importlib.resources as pkg_resources
+except:
+    import importlib_resources as pkg_resources
 
 ##########################################
 def additional_settings_linux(additional_settings):
