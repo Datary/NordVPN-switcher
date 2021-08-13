@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 DIRNAME = pathlib.Path(__file__).parent
 
 VERSION = '0.0.1'
-PACKAGE_NAME = 'nordvpn_switcher'
+PACKAGE_NAME = 'datary_nordvpn_switcher'
 AUTHOR = 'Datary'
 AUTHOR_EMAIL = 'engineering@datary.io'
 URL = 'https://github.com/datary/nordvpn_switcher'
