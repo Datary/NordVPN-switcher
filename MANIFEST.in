@@ -1,1 +1,1 @@
-include datary_nordvpn_switcher/NOrdVPN_options/*
+include src/NordVPN_options/*

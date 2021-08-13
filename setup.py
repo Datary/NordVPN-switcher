@@ -33,10 +33,11 @@ setup(
     url=URL,
     install_requires=INSTALL_REQUIRES,
     package_dir={
-        '': 'src'
+        'datary_nordvpn_switcher': 'src'
     },
-    packages=find_packages(
-        where='src'
-    ),
+    packages=[
+        'datary_nordvpn_switcher',
+        'datary_nordvpn_switcher.NordVPN_options'
+    ],
     include_package_data=True
 )
