@@ -14,7 +14,7 @@ from random_user_agent.params import SoftwareName, OperatingSystem
 import requests
 import json
 import importlib.resources as pkg_resources
-from nordvpn_switcher import NordVPN_options
+from datary_nordvpn_switcher import NordVPN_options
 
 ##########################################
 def additional_settings_linux(additional_settings):
