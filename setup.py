@@ -1,10 +1,11 @@
-import pathlib
-from setuptools import setup, find_packages
+from pathlib import Path
+from setuptools import setup
 
-DIRNAME = pathlib.Path(__file__).parent
+
+DIRNAME = Path(__file__).parent
 
 VERSION = '0.0.1'
-PACKAGE_NAME = 'datary_nordvpn_switcher'
+PACKAGE_NAME = 'datary-nordvpn-switcher'
 AUTHOR = 'Datary'
 AUTHOR_EMAIL = 'engineering@datary.io'
 URL = 'https://github.com/datary/nordvpn_switcher'
