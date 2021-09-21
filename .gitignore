@@ -1,0 +1,10 @@
+# virtualenv
+env/
+venv/
+virtualenv/
+
+
+# build
+build/
+dist/
+datary_nordvpn_switcher.egg-info/
